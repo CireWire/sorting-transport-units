@@ -1,8 +1,8 @@
-## Welcome to My Code
+# Welcome to My Code
 
 This was something I wanted to use personally to sort out some of the trailers I had to go through at work. This saved me a lot of hassle when I had to send a response to my **boss**.
 
-##Code
+## Code
 ```
 days = int(raw_input ("How many days are you looking for?"))
 

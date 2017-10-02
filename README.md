@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Welcome to my code
 
-You can use the [editor on GitHub](https://github.com/CireWire/sorting-transport-units/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This was something I wanted to use personally to sort out some of the trailers I had to go through at work. This saved me a lot of hassle when I had to send a response to my **boss**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##Code
+```
+days = int(raw_input ("How many days are you looking for?"))
 
-### Markdown
+two_days = [21205, 23060, 22732]
+three_days = [21102, 21285, 19943, 20694, 21482, 22802, 21403]
+four_days = [21839, 21938, 22536]
+six_days = [21614]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+if days == 2:
+  print ("These trailers have been here for 2 days:" + " " + str(sorted(two_days)))
+elif days == 3:
+  print ("These trailers have been here for 3 days:" + " " + str(sorted(three_days)))
+elif days == 4:
+  print ("These trailers have been here for 4 days" + " " + str(sorted(four_days)))
+elif days >= 5:
+  print "These trailers have been here for over 5 days" + " "+ str(sorted(six_days))
+else:
+  print ("Sorry, I can't help you.")
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+print days
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CireWire/sorting-transport-units/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This is a very easy program to use and edit, but if you need any help feel free to contact me!

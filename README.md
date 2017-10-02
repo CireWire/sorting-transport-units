@@ -1,4 +1,4 @@
-## Welcome to my code
+## Welcome to My Code
 
 This was something I wanted to use personally to sort out some of the trailers I had to go through at work. This saved me a lot of hassle when I had to send a response to my **boss**.
 
